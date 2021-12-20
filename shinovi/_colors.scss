@@ -1,0 +1,12 @@
+//cycle through the map $key,$val cannot be used outside of the loop
+@each $key,$val in  $colors{
+
+    //generate text class for each color
+    .text-#{$key}{
+        color: $val;
+    }
+
+    .bg-#{$key}{
+        background-color: $val;
+    }
+}

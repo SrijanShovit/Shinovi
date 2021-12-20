@@ -1,0 +1,19 @@
+//import diff file
+//order of import matters 
+//if a file depends on value/variable of another file then it should be imported below the file on which it depends
+
+//variables & functions
+@import 'variables';
+
+//base & layout
+@import 'base';
+
+//colors
+@import 'colors';
+
+
+//components(button,card,navbar)
+@import 'components/card';
+
+//utilities(margin,padding,opacity)
+
