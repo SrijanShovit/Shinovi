@@ -3,10 +3,13 @@
 //if a file depends on value/variable of another file then it should be imported below the file on which it depends
 
 //variables & functions
+@import 'functions';
 @import 'variables';
 
 //base & layout
 @import 'base';
+@import 'breakpoints';
+@import 'grid';
 
 //colors
 @import 'colors';
@@ -14,6 +17,10 @@
 
 //components(button,card,navbar)
 @import 'components/card';
+@import 'components/button';
+@import 'components/navbar';
+@import 'components/badge';
 
 //utilities(margin,padding,opacity)
+@import 'utilities'
 

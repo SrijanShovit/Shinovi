@@ -1,8 +1,8 @@
 //saas filename with _ before means it is just a partial no need to compile it to a css file
 
 //theme colors
-$primary: #326dee;
-$secondary: #1ac888;
+$primary: #326dee !default;  //default means assign this color if not already defined in custom file
+$secondary: #1ac888 !default;
 $error: #d32752;
 $info: #f6c31c;
 
